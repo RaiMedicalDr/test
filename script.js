@@ -48,9 +48,7 @@ function submitTest() {
 
     // 結果を表示してからダッシュボードに戻る
     document.getElementById("result").innerText = `あなたのスコアは ${score} / 10 です。`;
-    setTimeout(() => {
-        window.location.href = 'thanks.html';
-    }, 3000); // 3秒後に結果ページへ移動
+   
 }
 
 // ログイン処理
