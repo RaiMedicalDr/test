@@ -14,16 +14,16 @@ function checkPassword() {
 // テスト提出機能
 function submitTest() {
     const correctAnswers = {
-        question1: ["el gato está sobre la mesa", "猫はテーブルの上にいます"],
-        question2: ["soy un estudiante", "私は学生です"],
-        question3: ["トミー", "麻田美沙子", "美沙子"],
-        question4: ["nosotros estamos felices", "私たちは幸せです"],
-        question5: ["はい", "そうです"],
-        question6: ["ella es doctora", "彼女は医者です"],
-        question7: ["la manzana es roja", "りんごは赤いです", "リンゴは赤いです"],
-        question8: ["はい", "いいえ"],
-        question9: ["te amo", "大好き", "大好きです"],
-        question10: ["somos amigos", "私たちは友達です"]
+        question1: ["これはあなたの家ですか", "これはあなたのいえですか"],
+        question2: ["私は学生ですこの学校はとても美しいです", ""],
+        question3: ["iam tommy"],
+        question4: ["これはあなたの新しいペットですかこの新しいペットはとても可愛いです", "これはあなたの新しいペットですかこの新しいペットはとても可愛いですね"],
+        question5: ["yes"],
+        question6: ["彼女は医者ですこの医者は頭が悪いです", "彼女は医者ですこの医者は頭が良くありません", "彼女は医者ですこの医者は頭がわ良くないです"],
+        question7: ["today is happy day", "Today is happy day"],
+        question8: ["いいえ"],
+        question9: ["私はリンゴが必要ですあなたは", "私はりんごが必要ですあなたは", ""],
+        question10: ["私はペンを持っています"]
     };
 
     const userAnswers = {
@@ -48,7 +48,7 @@ function submitTest() {
 
     // 結果を表示してからダッシュボードに戻る
     document.getElementById("result").innerText = `あなたのスコアは ${score} / 10 です。`;
-   
+    
 }
 
 // ログイン処理
