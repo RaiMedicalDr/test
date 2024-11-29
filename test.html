@@ -10,36 +10,36 @@
     <div class="container">
         <h1>パスワードを入力してください</h1>
         <form id="passwordForm">
-            <input type="password" id="password" placeholder="パスワードを入力">
+            <input type="password" id="password" placeholder="パスワードを入力" required>
             <button type="button" onclick="checkPassword()">確認</button>
         </form>
 
         <div id="testContainer" style="display: none;">
-            <h1>Duolingo - セクション2 ユニット8 テスト（。、？スペースは入れないでください</h1>
+            <h1>Duolingo - セクション2 ユニット8 テスト</h1>
             <form id="testForm">
                 <!-- 問題1〜10 -->
                 <div class="question">
-                    <p>1.  "is this your house?"</p>
+                    <p>1.  "Is this your house?"</p>
                     <input type="text" id="question1" placeholder="答えは日本語で記入しなさい。">
                 </div>
                 <div class="question">
-                    <p>2.  "I am a student.this scool is very beautiful!"</p>
+                    <p>2.  "I am a student. This school is very beautiful!"</p>
                     <input type="text" id="question2" placeholder="答えは日本語で記入しなさい。">
                 </div>
                 <div class="question">
-                    <p>3. Your name?</p>
-                    <input type="text" id="question3" placeholder="iam tommy.  or   yes i tommy">
+                    <p>3. "Your name?"</p>
+                    <input type="text" id="question3" placeholder="回答を記入しなさい。">
                 </div>
                 <div class="question">
-                    <p>4.  "is this your new pet?. this new pet is very cute"</p>
+                    <p>4.  "Is this your new pet? This new pet is very cute."</p>
                     <input type="text" id="question4" placeholder="答えは日本語で記入しなさい。">
                 </div>
                 <div class="question">
-                    <p>5. Your not smart?.</p>
-                    <input type="text" id="question5" placeholder="yes or no">
+                    <p>5. "You are not smart?"</p>
+                    <input type="text" id="question5" placeholder="yes または no">
                 </div>
                 <div class="question">
-                    <p>6.  "She is a doctor.this doctor is not smart."</p>
+                    <p>6.  "She is a doctor. This doctor is not smart."</p>
                     <input type="text" id="question6" placeholder="答えは日本語で記入しなさい。">
                 </div>
                 <div class="question">
@@ -47,15 +47,15 @@
                     <input type="text" id="question7" placeholder="答えは英語で記入しなさい。">
                 </div>
                 <div class="question">
-                    <p>8. Is your daughter a pig?</p>
-                    <input type="text" id="question8" placeholder="no or yes">
+                    <p>8. "Is your daughter a pig?"</p>
+                    <input type="text" id="question8" placeholder="no または yes">
                 </div>
                 <div class="question">
-                    <p>9.  "i need apple. and you?"</p>
+                    <p>9.  "I need an apple. And you?"</p>
                     <input type="text" id="question9" placeholder="答えは日本語で記入しなさい。">
                 </div>
                 <div class="question">
-                    <p>10.  "i have pen"</p>
+                    <p>10.  "I have a pen."</p>
                     <input type="text" id="question10" placeholder="答えは日本語で記入しなさい。">
                 </div>
                 
@@ -64,11 +64,9 @@
             </form>
             <div id="result"></div>
         </div>
-
-        <!-- ダッシュボードに戻るボタン -->
-        <a href="dashboard.html" class="button">ダッシュボードに戻る</a>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
