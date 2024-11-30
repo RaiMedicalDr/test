@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duolingo Section 2 Unit 8 Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>パスワードを入力してください</h1>
+        <form id="passwordForm">
+            <input type="password" id="password" placeholder="パスワードを入力" required>
+            <button type="button" onclick="checkPassword()">確認</button>
+        </form>
+
+        <div id="testContainer" style="display: none;">
+            <h1>Duolingo - テスト</h1>
+            <form id="testForm">
+                <!-- 問題1〜10 -->
+                <div class="question">
+                    <p>1.  "that cat is on my desk"</p>
+                    <input type="text" id="question1" placeholder="答えは日本語で記入しなさい。">
+                </div>
+                <div class="question">
+                    <p>2.  "My aunt often visits my grandma."</p>
+                    <input type="text" id="question2" placeholder="答えは日本語で記入しなさい。">
+                </div>
+                <div class="question">
+                    <p>3. "Your not smart?"</p>
+                    <input type="text" id="question3" placeholder="yes or no">
+                </div>
+                <div class="question">
+                    <p>4.  "Is this your new cat? This new cat is not very smart"</p>
+                    <input type="text" id="question4" placeholder="答えは日本語で記入しなさい。">
+                </div>
+                <div class="question">
+                    <p>5. "do you like duolingo"</p>
+                    <input type="text" id="question5" placeholder="yes or no">
+                </div>
+                <div class="question">
+                    <p>6.  "Is duolingo a big company?"</p>
+                    <input type="text" id="question6" placeholder="yes or no">
+                </div>
+                <div class="question">
+                    <p>7.  "今日は曇りです"</p>
+                    <input type="text" id="question7" placeholder="答えは日本語で記入しなさい。">
+                </div>
+                <div class="question">
+                    <p>8. "it's sunny today "</p>
+                    <input type="text" id="question8" placeholder="答えは日本語で記入しなさい">
+                </div>
+                <div class="question">
+                    <p>9.  "I need an cigarette And you?"</p>
+                    <input type="text" id="question9" placeholder="答えは日本語で記入しなさい。">
+                </div>
+                <div class="question">
+                    <p>10.  "I have a cigarette this cigarette is very testy"</p>
+                    <input type="text" id="question10" placeholder="答えは日本語で記入しなさい。">
+                </div>
+                
+                <!-- 送信ボタン -->
+                <button type="button" onclick="submitTest()">テストを提出</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
