@@ -14,7 +14,7 @@ function checkPassword() {
 // テスト提出機能
 function submitTest() {
     const correctAnswers = {
-        question1: ["あの猫は私のテーブルの上にいます"],
+        question1: ["あの猫は私のテーブルの上にいます","その猫は私のテーブルの上にいます"],
         question2: ["私の叔母はよく私の祖母を訪ねます","私の叔母は良く私の祖母を訪ねます","私のおばはよく私の祖母を訪ねます","私のおばは良く私の祖母を訪ねます"],
         question3: ["yes"],
         question4: ["これはあなたの新しい猫ですかこの猫はとても頭が悪いです"],
